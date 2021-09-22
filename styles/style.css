@@ -13,11 +13,11 @@ body {
 }
 
 
-h2, h3, h5, span {
+h1, h2, h3, h5, span {
   font-family: 'Raleway', sans-serif;
 }
 
-h2 {
+h1 {
   font-size: 34px;
 }
 
@@ -119,14 +119,14 @@ a {
   width: 100%;
 }
 
-.slider-text > .btn-get-started, h2, p {
+.slider-text > .btn-get-started, h1, h2, p {
   position: relative;
   text-align: center;
   color: hsl(0, 0%, 100%);
   margin: auto;
 }
 
-.slider-text > h2 {
+.slider-text > h1 {
   max-width: 50%;
 }
 
@@ -357,9 +357,10 @@ a {
   align-items: center;
 }
 
-.footer-col-5 > a > i:hover {
+.footer-col-5 > i:hover {
   color: rgb(101, 226, 217);
   border: 1px solid rgb(101, 226, 217);
+  cursor: pointer;
 }
 
 .footer-icon {
@@ -421,6 +422,10 @@ a {
 .footer-col-1 > img {
   padding-bottom: 30px;
 }
+
+.footer-address {
+  bottom: 10px;
+}
 .footer-col-2 {
     padding: 60px 20px;
     width: 40%;
@@ -428,6 +433,9 @@ a {
 }
 
 @media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
   h2, h3 {
     font-size: 18px;
   }
