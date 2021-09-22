@@ -148,8 +148,10 @@ a {
   text-align: center;
 }
 
-.service-title > h3 {
+.service-title {
   padding: 24px 0 12px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 [class*="item-"] {
@@ -436,7 +438,7 @@ a {
   h1 {
     font-size: 20px;
   }
-  h2, h3 {
+  .service-title {
     font-size: 18px;
   }
   .main-navegation {
